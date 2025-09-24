@@ -16,3 +16,4 @@ pip install -r requirements.txt
 
 python species_alert_yolo_lite/infer.py --source path/to/video.mp4 --weights weights/best.pt
 python duck_behavior_detection/infer.py --source path/to/video.mp4 --weights weights/best.pt
+
