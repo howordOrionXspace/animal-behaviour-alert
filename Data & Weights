@@ -1,0 +1,2 @@
+This repo excludes large datasets/weights. Put tiny samples in datasets/ and download full weights
+from the Releases page or the link provided in each sub-README.
