@@ -12,3 +12,7 @@ Two compact computer-vision projects:
 ```bash
 python -m venv .venv && source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
+
+
+python species_alert_yolo_lite/infer.py --source path/to/video.mp4 --weights weights/best.pt
+python duck_behavior_detection/infer.py --source path/to/video.mp4 --weights weights/best.pt
