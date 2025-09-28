@@ -74,11 +74,5 @@ python pipeline.py \
   --cls-weights ../1-classify-mobilenet/weights/behaviour_mobilenet.pth \
   --out outputs/run1 --conf 0.25 --img 640 --fps 30
 
-outputs/run1/
-  overlay.mp4           # visualized video
-  crops/ID_###/*.jpg    # crops passed to classifier
-  behaviour.csv         # timeline table
-
-If you want, I can also generate a simple `pipeline.py` skeleton that reads YOLO detections, crops ducks, runs MobileNet, and writes `behaviour.csv`.
 
 
